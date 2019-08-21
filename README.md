@@ -7,6 +7,21 @@ This is primary intended for resolving merge conflicts when using version contro
 Maintained by [@YellowAfterlife](https://github.com/YellowAfterlife).  
 Releases are hosted [on itch.io](https://yellowafterlife.itch.io/yy-yaml).
 
+# How does this work
+As you might be vaguely aware, GameMaker Studio 2 stores your project structure in a YYP file (which contains resource paths and resource IDs) and series of "view" files (which correspond each each "folder" that you can see in the resource tree).
+
+Both of these are in JSON format, which is good for serialization purposes, but much less so for merging changes in version control - even adding a file to the end of the same resource tree folder on both branches is automatically a merge conflict due to lack of trailing comma as per JSON specification. Additionally, resolving merges is a mess because you cannot quickly look up which resources are used based on ID.
+
+On other hand, this tool produces YAML files that are structured exactly like resource tree - so, if you had a folder called "helpers" with scripts "trace" and "cycle", it might look like:
+```yaml
+- "helpers | GMScript | dabada57-7e5a-4efa-635c-2104241583f6 | be11fa39-5dad-186a-e5d7-3c222550332e": 
+  - "?trace | GMScript | d66da385-176e-6cbc-1d57-a6b6eabab5b2 | 1ca59f3b-ca2b-4169-6b65-dec4afef73c6"
+  - "?cycle | GMScript | 1cd3cdb6-14ee-ee8f-be85-dbf71c959574 | c95fb987-f975-933d-7e05-d53b8638bed0"
+```
+So each thing has its name/path, type, and both IDs all in the same line of YAML, which means that adding/removing resources/folders is a matter of changing a single line of code, and merge conflicts are less likely to occur to begin with.
+
+Combine this with "interactive" merge modes in git clients like Sublime Merge, and working with version control is suddenly a breeze.
+
 ## How to use (in general)
 
 - Drag a YYP file onto the program's executable to generate a YAML version of it in the same directory.
