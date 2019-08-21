@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="200" height="200" viewBox="0 0 200 200" id="svg4140" version="1.1" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="thumb.svg" inkscape:export-filename="./thumb.png" inkscape:export-xdpi="192" inkscape:export-ydpi="192">
+  <defs id="defs4142">
+    <linearGradient y2="163.82805" x1="153.33781" x2="153.33781" y1="65.160691" id="g" gradientTransform="scale(0.86410846,1.1572621)" gradientUnits="userSpaceOnUse">
+      <stop id="stop4242" offset="0" stop-color="#58B0E3" />
+      <stop id="stop4244" offset="1" stop-color="#F44C26" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#889ec5" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:zoom="3.959798" inkscape:cx="114.40732" inkscape:cy="115.87156" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" units="px" inkscape:object-nodes="true" inkscape:snap-text-baseline="false" inkscape:window-width="1793" inkscape:window-height="1223" inkscape:window-x="2760" inkscape:window-y="525" inkscape:window-maximized="0" inkscape:snap-center="false" inkscape:snap-smooth-nodes="true" showguides="false" inkscape:snap-grids="true" inkscape:snap-to-guides="true" inkscape:snap-object-midpoints="false" inkscape:snap-bbox="true" inkscape:snap-nodes="true" inkscape:bbox-nodes="true">
+    <inkscape:grid type="xygrid" id="grid4688" spacingx="1" spacingy="1" empspacing="10" enabled="false" />
+    <sodipodi:guide position="-115.66247,220" orientation="-0.70710678,0.70710678" id="guide4195" inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata id="metadata4145">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-852.36216)">
+    <g id="g4342" style="opacity:0.8" />
+    <g id="g4187" transform="matrix(0.16497965,0,0,0.16497965,-27.411665,884.81181)">
+      <g inkscape:label="All the things" id="layer2-5" />
+      <g id="g858">
+        <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Open Sans Condensed';-inkscape-font-specification:'Open Sans Condensed,  Bold Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5b647d;fill-opacity:1;stroke:#5b657d;stroke-width:15.38668537;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" x="229.6541" y="586.21967" id="text4762-6" transform="matrix(0.92341819,-0.07950592,-0.05504014,1.0876719,0,0)"><tspan sodipodi:role="line" x="229.6541" y="586.21967" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:411.07894897px;line-height:1;font-family:'Open Sans Condensed';-inkscape-font-specification:'Open Sans Condensed,  Bold Condensed';stroke-width:15.38668537;stroke-miterlimit:4;stroke-dasharray:none" id="tspan4237"><tspan style="fill:#e6e7eb" id="tspan866">YY</tspan>YAML</tspan></text>
+        <text transform="matrix(0.92341819,-0.07950592,-0.05504014,1.0876719,0,0)" id="text4162-1" y="584.0556" x="232.29988" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Open Sans Condensed';-inkscape-font-specification:'Open Sans Condensed,  Bold Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-size:411.07894897px;line-height:1" y="584.0556" x="232.29988" sodipodi:role="line" id="tspan4196"><tspan style="fill:#e6e7eb" id="tspan878">YY</tspan>YAML</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

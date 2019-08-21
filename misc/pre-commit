@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# todo: exit early if YYP/views are not included in the commit?
+
+# Find the YYP:
+for file in *.yyp; do
+	yyp_path="$file"
+	break
+done
+if [ "$yyp_path" = "*.yyp" ]; then
+	echo "Couldn't find your YYP!"
+	exit 1
+fi
+
+# Update YAML:
+./YYYAML.exe --nowait "$yyp_path"
+retv=$?
+if [ $retv -ne 0 ]; then
+	echo "YY-YAML returned an error."
+	exit 1
+fi
+
+# Add YAML to commit:
+git add "$yyp_path.yaml"
+exit 0
