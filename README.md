@@ -7,7 +7,7 @@ This is primary intended for resolving merge conflicts when using version contro
 Maintained by [@YellowAfterlife](https://github.com/YellowAfterlife).  
 Releases are hosted [on itch.io](https://yellowafterlife.itch.io/yy-yaml).
 
-# How does this work
+## How does this work
 As you might be vaguely aware, GameMaker Studio 2 stores your project structure in a YYP file (which contains resource paths and resource IDs) and series of "view" files (which correspond each each "folder" that you can see in the resource tree).
 
 Both of these are in JSON format, which is good for serialization purposes, but much less so for merging changes in version control - even adding a file to the end of the same resource tree folder on both branches is automatically a merge conflict due to lack of trailing comma as per JSON specification. Additionally, resolving merges is a mess because you cannot quickly look up which resources are used based on ID.
