@@ -54,3 +54,11 @@ For applying to a merge conflict that you already have:
 ## Could YoYo Games do this themselves?
 
 [Reportedly](https://forum.yoyogames.com/index.php?threads/come-meet-yoyo-at-gamescom.66372/#post-397569), some project format changes are scheduled for GMS2.3, which should be out in late 2019. The exact nature of changes is not known at this time.
+
+## License
+
+Source code is licensed under LGPLv3;
+
+I do not impose restrictions on using the binaries;
+
+Donations are appreciated if you found it useful.
