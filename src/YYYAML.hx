@@ -78,6 +78,7 @@ class YYYAML {
 	
 	static function yyp2yaml(yypPath:String, yamlPath:String) {
 		var dir = Path.directory(yypPath);
+		if (dir == "") dir = ".";
 		Sys.print("Reading..."); var t = Timer.stamp();
 		var yyp:YyProject = Json.parse(File.getContent(yypPath));
 		var views:Map<YyGUID, YaView> = new Map();
@@ -178,6 +179,7 @@ class YYYAML {
 	}
 	static function yaml2yyp(yamlPath:String, yypPath:String):Void {
 		var dir = Path.directory(yypPath);
+		if (dir == "") dir = ".";
 		Sys.print("Reading..."); var t = Timer.stamp();
 		var yaml:YaProject = Yaml.read(yamlPath, Parser.options().useObjects());
 		Sys.println(" OK! (" + Std.int((Timer.stamp() - t) * 1000) + "ms)");
